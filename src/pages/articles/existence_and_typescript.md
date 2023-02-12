@@ -1,3 +1,6 @@
+---
+layout: "../../layouts/Article.astro"
+---
 # Existence And TypeScript
 
 >   Two handy TypeScript features are the optional chaining and non-null assertion operators. In this article, we'll explore how these two work and why the way they work is philosophically interesting.

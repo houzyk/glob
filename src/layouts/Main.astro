@@ -1,5 +1,5 @@
 ---
-interface Props {
+export interface MainLayoutProps {
   title?: string;
   metaDescription?: string;
   canonicalUrl?: string;
@@ -20,6 +20,8 @@ interface Props {
     }
   }
 }
+
+interface Props extends MainLayoutProps {};
 
 const { 
   title,

@@ -1,0 +1,27 @@
+---
+import MainLayout, { MainLayoutProps } from "./Main.astro";
+
+interface Props {
+  frontmatter: MainLayoutProps
+}
+
+const { 
+  frontmatter: {
+    title,
+    canonicalUrl,
+    metaDescription,
+    seo
+  }
+} = Astro.props;
+
+const mainLayoutProps: MainLayoutProps = {
+  title,
+  canonicalUrl,
+  metaDescription,
+  seo
+}
+---
+
+<MainLayout {...mainLayoutProps}>
+  <slot/>
+</MainLayout>
