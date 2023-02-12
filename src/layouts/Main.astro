@@ -1,0 +1,46 @@
+---
+interface Props {
+  title?: string;
+  metaDescription?: string;
+  canonicalUrl?: string;
+  seo?: {
+    openGraph?: {
+      title?: string;
+      url?: string;
+      image?: string;
+      type?: string;
+      description?: string;
+      locale?: string;
+    }
+    twitter?: {
+      title?: string;
+      description?: string;
+      image?: string;
+      card?: string;
+    }
+  }
+}
+
+const { 
+  title,
+  metaDescription,
+  canonicalUrl,
+  seo
+} = Astro.props;
+
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>{title || ''}</title>
+    <meta name="description" content={metaDescription || ''}>
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+    <link rel="canonical" href={canonicalUrl || ''}>
+	</head>
+	<body>
+    <slot/>
+	</body>
+</html>
