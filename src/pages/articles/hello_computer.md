@@ -1,5 +1,7 @@
 ---
 layout: "../../layouts/Article.astro"
+title: "Hello, Computer!"
+metaDescription: "Computers run the world, that's obvious! What is it that computers do? That's less obvious. There are several, equally good, answers to that question. One may give an 'engineering' answer by talking about microchips or motherboards. One may also give a theoretical answer by talking of automata or Turing Machines. Alternatively, one may give a philosophical and slightly more abstract answer. So, instead of diving into the physical and theoretical implementations of computers, let's explore what computers conceptually do."
 ---
 # Hello, Computer!
 

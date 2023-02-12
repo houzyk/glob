@@ -1,5 +1,7 @@
 ---
 layout: "../../layouts/Article.astro"
+title: "Too Much To Handle"
+metaDescription: "Here’s an interesting fact — even if we had an infinite amount of computational power and time, we would not be able to solve every single computational problem that can exist. In this article, we’ll informally prove this fact by showing that there are far too many problems for programs to handle."
 ---
 # Too Much To Handle
 

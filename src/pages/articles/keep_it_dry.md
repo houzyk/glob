@@ -1,5 +1,7 @@
 ---
 layout: "../../layouts/Article.astro"
+title: "Keep It Dry"
+metaDescription: "Don't Repeat Yourself (DRY for short) is a cherished principle guiding developers world-wide. In this article, we'll take a philosophical dive into what it implies and how it pushes Philosophy to its limits."
 ---
 # Keep It Dry
 
